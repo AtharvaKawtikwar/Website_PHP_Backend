@@ -1,0 +1,50 @@
+
+
+@media (max-width: 768px) {
+    /* Styles for screens up to 768px wide */
+  }
+
+  .sports-container {
+    display: flex;
+    background-color: black;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    
+    padding: 50px;
+    background-color: black;
+}
+
+ .sport-card1, .sport-card2, .sport-card3 {
+    width: 120px;
+    height: 360px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Add margin between cards */
+    padding: 20px;
+    text-align: center;
+    width: calc(33.33% - 20px); 
+} 
+
+.header {
+    background-color: black;
+    color: white;
+   
+    
+   
+    text-align: center;
+    padding: 20px 30px;
+}
+
+
+  
+  /* Header in collapsed state */
+  .header.collapsed {
+    height: 50px; /* Adjust the desired collapsed height */
+  }
+  
+
+img{
+width: 100%;
+height: 80%;
+}
